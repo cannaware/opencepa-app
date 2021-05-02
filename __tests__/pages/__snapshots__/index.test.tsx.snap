@@ -12,5 +12,14 @@ exports[`Index page should match the snapshot 1`] = `
   <p>
     2020
   </p>
+  <p>
+    <a
+      href="/info"
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+    >
+      Info
+    </a>
+  </p>
 </main>
 `;

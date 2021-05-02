@@ -1,5 +1,6 @@
 import { NextPage } from 'next';
 import { useState } from 'react';
+import Link from 'next/link';
 
 interface Launch {
   flight_number: number;
@@ -31,6 +32,11 @@ const IndexPage: NextPage<Props> = ({ launch }) => {
       <h1>Next SpaceX Launch: {nextLaunch.flight_number}</h1>
       <p>{nextLaunch.details}</p>
       <p>{nextLaunch.launch_year}</p>
+      <p>
+        <Link href="/info">
+          <a>Info</a>
+        </Link>
+      </p>
     </main>
   );
 };
