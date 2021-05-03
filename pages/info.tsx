@@ -7,7 +7,7 @@ const InfoPage: NextPage = () => {
       <h1>Info NextJS</h1>
       <p>
         <Link href="/">
-          <a>Volver al Inicio..</a>
+          <a>Volver al Inicio</a>
         </Link>
       </p>
     </main>
