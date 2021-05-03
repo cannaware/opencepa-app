@@ -29,7 +29,7 @@ const IndexPage: NextPage<Props> = ({ launch }) => {
 
   return (
     <main>
-      <h1>Next SpaceX Launch: {nextLaunch.flight_number}</h1>
+      <h1 className="font-bold">Next SpaceX Launch: {nextLaunch.flight_number}</h1>
       <p>{nextLaunch.details}</p>
       <p>{nextLaunch.launch_year}</p>
       <p>
