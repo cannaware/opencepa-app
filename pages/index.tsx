@@ -34,7 +34,7 @@ const IndexPage: NextPage<Props> = ({ launch }) => {
       <p>{nextLaunch.launch_year}</p>
       <p>
         <Link href="/info">
-          <a>Ir a Info</a>
+          <a>Ir a Info.</a>
         </Link>
       </p>
     </main>
