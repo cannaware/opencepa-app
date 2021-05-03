@@ -6,6 +6,9 @@
     "name": "Mario Colque",
     "email": "mario@cannaware.io"
   },
+  "engines": {
+    "node": "14.16.x"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
