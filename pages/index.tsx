@@ -37,6 +37,11 @@ const IndexPage: NextPage<Props> = ({ launch }) => {
           <a>Ir a Info..</a>
         </Link>
       </p>
+      <p>
+        <Link href="/acerca">
+          <a>Ir a Acerca..</a>
+        </Link>
+      </p>
     </main>
   );
 };
