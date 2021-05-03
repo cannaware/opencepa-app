@@ -11,7 +11,7 @@ exports[`Info page should match the snapshot 1`] = `
       onClick={[Function]}
       onMouseEnter={[Function]}
     >
-      Home
+      Volver al Inicio
     </a>
   </p>
 </main>
