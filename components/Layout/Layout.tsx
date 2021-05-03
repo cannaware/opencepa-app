@@ -4,6 +4,7 @@ const Layout: React.FC = ({ children }) => {
   return (
     <>
       <Head>
+        <meta charSet="utf-8" />
         <meta name="application-name" content="OpenCepa" />
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-status-bar-style" content="default" />
